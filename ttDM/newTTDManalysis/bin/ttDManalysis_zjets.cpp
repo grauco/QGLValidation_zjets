@@ -610,7 +610,7 @@ int main(int argc, char **argv) {
 		     } 
 		   }
 		   
-		   /*float deltaR_jetallpartons=-999;
+		   float deltaR_jetallpartons=-999;
 		   float mindeltaR_jetallpartons=999;
 		   int genindex=999;
 		   
@@ -631,8 +631,8 @@ int main(int argc, char **argv) {
 		       }
 		     }
 		   }
-
-		   if(mindeltaR_jetallpartons<0.3){                                                            
+		   
+		   if(mindeltaR_jetallpartons<0.4){                                                            
 		     if((genindex<=5 && genindex>=-5)){
 		       h_qgl_quark_all->Fill(SelectedJets[0].qgl);
 		       h_qgl2_quark_all->Fill(SelectedJets[0].qgl2);
@@ -643,18 +643,18 @@ int main(int argc, char **argv) {
 		       h_nPart2_quark_all->Fill(SelectedJets[0].nPart2);
 		       h_ptD2_quark_all->Fill(SelectedJets[0].ptD2);
 		       h_minW2_quark_all->Fill(-log(SelectedJets[0].minW2));
-
+		       
 		     }
 		     else if(genindex<=21.1 && genindex>=20.9){
-			 h_qgl_gluon_all->Fill(SelectedJets[0].qgl);
-			 h_qgl2_gluon_all->Fill(SelectedJets[0].qgl2);
-			 h_qgl3_gluon_all->Fill(SelectedJets[0].qgl3);
-			 h_nPart_gluon_all->Fill(SelectedJets[0].nPart);
-			 h_ptD_gluon_all->Fill(SelectedJets[0].ptD);
-			 h_minW_gluon_all->Fill(-log(SelectedJets[0].minW));
-			 h_nPart2_gluon_all->Fill(SelectedJets[0].nPart2);
-			 h_ptD2_gluon_all->Fill(SelectedJets[0].ptD2);
-			 h_minW2_gluon_all->Fill(-log(SelectedJets[0].minW2));
+		       h_qgl_gluon_all->Fill(SelectedJets[0].qgl);
+		       h_qgl2_gluon_all->Fill(SelectedJets[0].qgl2);
+		       h_qgl3_gluon_all->Fill(SelectedJets[0].qgl3);
+		       h_nPart_gluon_all->Fill(SelectedJets[0].nPart);
+		       h_ptD_gluon_all->Fill(SelectedJets[0].ptD);
+		       h_minW_gluon_all->Fill(-log(SelectedJets[0].minW));
+		       h_nPart2_gluon_all->Fill(SelectedJets[0].nPart2);
+		       h_ptD2_gluon_all->Fill(SelectedJets[0].ptD2);
+		       h_minW2_gluon_all->Fill(-log(SelectedJets[0].minW2));
 		     }
 		     else{
 		       h_qgl_undef_all->Fill(SelectedJets[0].qgl);
@@ -671,7 +671,7 @@ int main(int argc, char **argv) {
 		   }
 		   else{
 		     
-		     if((SelectedJets[0].jetflavour<=5 && SelectedJets[0].jetflavour>=-5 && SelectedJets[0].jetflavour!=0)){
+		     /*if((SelectedJets[0].jetflavour<=5 && SelectedJets[0].jetflavour>=-5 && SelectedJets[0].jetflavour!=0)){
 		       h_qgl_quark_all->Fill(SelectedJets[0].qgl);
 		       h_qgl2_quark_all->Fill(SelectedJets[0].qgl2);
 		       h_qgl3_quark_all->Fill(SelectedJets[0].qgl3);
@@ -705,24 +705,24 @@ int main(int argc, char **argv) {
 		       h_ptD2_undef_all->Fill(SelectedJets[0].ptD2);
 		       h_minW2_undef_all->Fill(-log(SelectedJets[0].minW2));
 		     }
-		     
+		     */
 		     h_qgl_undef_all->Fill(SelectedJets[0].qgl);
-		       h_qgl2_undef_all->Fill(SelectedJets[0].qgl2);
-		       h_qgl3_undef_all->Fill(SelectedJets[0].qgl3);
-		       h_nPart_undef_all->Fill(SelectedJets[0].nPart);
-		       h_ptD_undef_all->Fill(SelectedJets[0].ptD);
-		       h_minW_undef_all->Fill(-log(SelectedJets[0].minW));
-		       h_nPart2_undef_all->Fill(SelectedJets[0].nPart2);
-		       h_ptD2_undef_all->Fill(SelectedJets[0].ptD2);
-		       h_minW2_undef_all->Fill(-log(SelectedJets[0].minW2));
-		       
+		     h_qgl2_undef_all->Fill(SelectedJets[0].qgl2);
+		     h_qgl3_undef_all->Fill(SelectedJets[0].qgl3);
+		     h_nPart_undef_all->Fill(SelectedJets[0].nPart);
+		     h_ptD_undef_all->Fill(SelectedJets[0].ptD);
+		     h_minW_undef_all->Fill(-log(SelectedJets[0].minW));
+		     h_nPart2_undef_all->Fill(SelectedJets[0].nPart2);
+		     h_ptD2_undef_all->Fill(SelectedJets[0].ptD2);
+		     h_minW2_undef_all->Fill(-log(SelectedJets[0].minW2));
+		     
 		   }
-		   */
-		   /*for(int i=0;i<9;i++){
+		   
+		   for(int i=0;i<9;i++){
 		     for(int j=0;j<5;j++){
 		       if(abs((SelectedJets[0].vect).Eta())>etaRatiobins[j] && abs((SelectedJets[0].vect).Eta())<etaRatiobins[j+1] && Z.Pt()>ptRatiobins[i] && Z.Pt()<ptRatiobins[i+1]){                                     
 			 
-			 if(mindeltaR_jetallpartons<0.3){                                                            
+			 if(mindeltaR_jetallpartons<0.4){                                                            
 			   //  if((SelectedJets[0].flavour<=5 && SelectedJets[0].flavour>=-5 && SelectedJets[0].flavour!=0)){
 			   if((genindex<=5 && genindex>=-5)){
 			     //  if((SelectedJets[0].jetflavour<=5 && SelectedJets[0].jetflavour>=-5 && SelectedJets[0].jetflavour!=0)){
@@ -766,7 +766,7 @@ int main(int argc, char **argv) {
 			   }
 			 }
 			   else{
-			     if((SelectedJets[0].flavour<=5 && SelectedJets[0].flavour>=-5 && SelectedJets[0].flavour!=0)){
+			     /*if((SelectedJets[0].flavour<=5 && SelectedJets[0].flavour>=-5 && SelectedJets[0].flavour!=0)){
 
 			     h_chg_quark[i][j]->Fill(SelectedJets[0].chg);
 			     h_neu_quark[i][j]->Fill(SelectedJets[0].neu);
@@ -805,8 +805,8 @@ int main(int argc, char **argv) {
 			     h_qgl_undef[i][j]->Fill(SelectedJets[0].qgl);
 			     h_qgl2_undef[i][j]->Fill(SelectedJets[0].qgl2);
 			     h_qgl3_undef[i][j]->Fill(SelectedJets[0].qgl3);
-			     }
-			   h_chg_undef[i][j]->Fill(SelectedJets[0].chg);
+			     }*/
+			     h_chg_undef[i][j]->Fill(SelectedJets[0].chg);
 			     h_neu_undef[i][j]->Fill(SelectedJets[0].neu);
 			     h_ptD_undef[i][j]->Fill(SelectedJets[0].ptD);
 			     h_nPart_undef[i][j]->Fill(SelectedJets[0].nPart);
@@ -818,10 +818,10 @@ int main(int argc, char **argv) {
 			     h_qgl2_undef[i][j]->Fill(SelectedJets[0].qgl2);
 		           h_qgl3_undef[i][j]->Fill(SelectedJets[0].qgl3);
 			   //}
-			   	   }
 			   }
-			   }
-		   }*/
+		       }
+		     }
+		   }
 		   }
 		 }
 		 }
@@ -832,7 +832,7 @@ int main(int argc, char **argv) {
      }
      
    //   TString outfile = "/scratch/grauco/jetMet_zjets/"+sample + "_" +cat+"_"+channel+".root";
-   TString outfile = "res_v3/"+sample + "_" +cat+"_"+channel+"_status23.root";
+   TString outfile = "res_v3/"+sample + "_" +cat+"_"+channel+"_status23cone04.root";
    TFile fout(outfile, "recreate");
 
    h_rho->Write();
