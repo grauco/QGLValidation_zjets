@@ -34,5 +34,5 @@ ZJETS \
 \
 \
 \
-/pnfs/lcg.cscs.ch/cms/trivcat/store/user/grauco/JetMet_Fw76XV2/SingleMuon/Root76xV1_SingleMuon_JetMet_09May/160509_191020/000*                                                                                                                                           \
+/pnfs/lcg.cscs.ch/cms/trivcat/store/user/grauco/JetMet_Fw76XV2/SingleMuon/Root76xV1_SingleMuon_JetMet_09May/160509_191020/000*                          /pnfs/lcg.cscs.ch/cms/trivcat/store/user/grauco/JetMet_Fw76XV2/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/Root76xV1_DYJetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_JetMet_8Jun/160607_221309/0002*                                                                                                                 \
 /pnfs/lcg.cscs.ch/cms/trivcat/store/user/grauco/JetMet_Fw76XV2/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/Root76xV1_DYJetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_JetMet_09May/160509_190925/000*}
