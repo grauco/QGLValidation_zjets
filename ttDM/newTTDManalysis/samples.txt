@@ -22,7 +22,8 @@
 pnfs/lcg.cscs.ch/cms/trivcat/store/user/grauco/JetMet_Fw76XV2/QCD_Pt_2400to3200_TuneCUETP8M1_13TeV_pythia8/Root76xV1_QCD_Pt_2400to3200_TuneCUETP8M1_13TeV_pythia8_JetMet_09May/160509_145752/000*\
 \
 /pnfs/lcg.cscs.ch/cms/trivcat/store/user/grauco/JetMet_Fw76XV2/QCD_HT100to200_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/Root76xV1_QCD_HT100to200_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_JetMet_30May/160530_162044/0000/\
-/pnfs/lcg.cscs.ch/cms/trivcat/store/user/grauco/JetMet_Fw76XV2/QCD_HT200to300_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/Root76xV1_QCD_HT200to300_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_JetMet_2Junv2/160602_061628/0000/                                                         \
+/pnfs/lcg.cscs.ch/cms/trivcat/store/user/grauco/JetMet_Fw76XV2/QCD_HT200to300_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/Root76xV1_QCD_HT200to300_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_JetMet_2Junv2/160602_061628/0000/    
+/pnfs/lcg.cscs.ch/cms/trivcat/store/user/grauco/JetMet_Fw76XV2/QCD_HT200to300_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/Root76xV1_QCD_HT200to300_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_JetMet_2Jun/160602_061436/0000/
 /pnfs/lcg.cscs.ch/cms/trivcat/store/user/grauco/JetMet_Fw76XV2/QCD_HT300to500_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/Root76xV1_QCD_HT300to500_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_JetMet_2Junv2/160602_061635/0000/                                                                  \
 /pnfs/lcg.cscs.ch/cms/trivcat/store/user/grauco/JetMet_Fw76XV2/QCD_HT300to500_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/Root76xV1_QCD_HT300to500_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_JetMet_2Jun/160602_061444/0000/                                                               \
 /pnfs/lcg.cscs.ch/cms/trivcat/store/user/grauco/JetMet_Fw76XV2/QCD_HT500to700_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/Root76xV1_QCD_HT500to700_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_JetMet_2Jun/160602_061451/0000/\
